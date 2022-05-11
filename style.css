@@ -1,0 +1,31 @@
+html{
+	display: flex;
+	background:#263238;
+	justify-content: center;
+	height: 100%;
+}
+
+
+.row {
+	display: flex;
+	margin-top: 10% !important;
+	margin: 5%;
+	width: 90%;
+}
+
+
+.icon {
+	margin: 2%;
+	opacity: 50;
+}
+
+.image {
+	border-radius: 2.5%;
+	opacity: 0.25;
+	transition: opacity ease 1s;
+}
+
+.image:hover {
+	opacity: 1;
+	transition: opacity ease 0.2s;
+}
